@@ -4,7 +4,7 @@ then
   git clone https://github.com/LazyDeveloperr/LazyPrincess.git /LazyPrincess
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /pavan
+  git clone $UPSTREAM_REPO /LazyPrincess
 fi
 cd /LazyPrincess
 pip3 install -U -r requirements.txt
